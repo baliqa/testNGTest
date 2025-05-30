@@ -13,5 +13,10 @@ public class GitDemoClass {
 		System.out.println("this is 4th code");
 		System.out.println("this is 5rd code");
 		System.out.println("this is 6th code");
+		System.out.println("this is 7th code");
+		System.out.println("this is 8th code");
+		System.out.println("this is 9th code");
+		System.out.println("this is 10th code");
+		
 	}
 }
