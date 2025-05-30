@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="https://rahulshettyacademy.com/angularpractice/"/>
+  <listeners>
+    <listener class-name="testNGTests.Listener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="testNGTests.testNG2">
+        <methods>
+          <include name="demo8"/>
+          <include name="demo6"/>
+          <include name="demo4"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNGTests.testNG2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
