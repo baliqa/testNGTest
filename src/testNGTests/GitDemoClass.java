@@ -49,4 +49,9 @@ public class GitDemoClass {
 		System.out.println("this is 10th code");
 		
 	}
+	
+	@Test
+	public void methodFromDevelope() {
+		
+		System.out.println("this is a method from develope branch");
 }
