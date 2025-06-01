@@ -57,4 +57,9 @@ public class GitDemoClass {
 		System.out.println("this is a method from develope branch");
 
 }
+	public void methodFromDevelope2() {
+		
+		System.out.println("this is a method2 from develope branch");
+
+}
 }
